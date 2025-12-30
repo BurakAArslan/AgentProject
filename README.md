@@ -1,6 +1,6 @@
 # AgentProject
-SMART TRANSPORTATION & TRAFFIC OPTIMIZATION SYSTEM
-ReAct + Multi-RAG + Live API Integration
+-SMART TRANSPORTATION & TRAFFIC OPTIMIZATION SYSTEM
+-ReAct + Multi-RAG + Live API Integration
 
 ==================================================
 
