@@ -1,4 +1,4 @@
-# AgentProject
+```# AgentProject
 SMART TRANSPORTATION & TRAFFIC OPTIMIZATION SYSTEM
 ReAct + Multi-RAG + Live API Integration
 
@@ -178,3 +178,4 @@ Real-world live API integration
 Conclusion
 
 In this study, the proposed ReAct-based smart transportation system demonstrated a reliable reasoning process by consistently selecting the appropriate tool—RAG, live traffic APIs, or mathematical computation—based on the type of query. Benchmark and demo results indicate that the system provides a suitable solution for real-world intelligent transportation applications due to its high tool-selection accuracy and fully traceable Thought–Action–Observation reasoning chain.
+```
