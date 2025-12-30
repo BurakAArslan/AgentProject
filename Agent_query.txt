@@ -1,13 +1,2 @@
     demo_q = "Tehlikeli madde taşıyan araç sürücüleri, yerleşim birimleri dışındaki karayollarında diğer araçları, en az  kaç metre mesafeden takip etmek zorundadırlar? "
     demo = agent.answer(demo_q, max_turns=5, return_trace=True)
-    print("\n================= DEMO =================")
-    print("Soru:", demo_q)
-    print("Cevap:", demo["answer"])
-    print("Tools:", demo["tools_used"])
-    print("Contexts Used (özet):", json.dumps(demo["contexts_used"], ensure_ascii=False, indent=2))
-    print("Trace (Thought/Action/Observation):")
-    for step in demo["trace"]:
-        print(f"\n--- Turn {step['turn']} ---")
-        print("THOUGHT:", step["thought"])
-        print("ACTION:", step["action"])
-        print("OBSERVATION:", step["observation"])
