@@ -1,2 +1,2 @@
     demo_q = "Tehlikeli madde taşıyan araç sürücüleri, yerleşim birimleri dışındaki karayollarında diğer araçları, en az  kaç metre mesafeden takip etmek zorundadırlar? "
-    demo = agent.answer(demo_q, max_turns=5, return_trace=True)
+
